@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+	<head>
+		<!-- Basic Meta -->
+		<meta charset="UTF-8" />
+		<!-- IE Meta-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- Mobile Meta-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- website information -->
+		<meta name="description" content="real estate website" />
+		<meta name="keywords" content="property real estate company sale buy house" />
+		<meta name="author" content="Ahmed El-Alfy" />
+		<!-- Website Title -->
+		<title>Real Estate</title>
+		<!-- Font-Awesome -->
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap-rtl.css" />
+		<!-- Owl Carousel -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css" />
+		<!-- default owl-carousel style -->
+		<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+		<!-- Master Style Css -->
+		<link rel="stylesheet" href="css/master.css" />
+		<!-- Google fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&display=swap">
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+<body>
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="loader">
+			<div class="load"></div>
+			<div class="load"></div>
+			<div class="load"></div>
+			<div class="load"></div>
+			<div class="load"></div>
+			<div class="load"></div>
+			<div class="load"></div>
+			<div class="load"></div>
+			<div class="load"></div>
+		</div>
+	</div><!-- Preloader -->
+	
+	<!-- Landing Page -->
+	<section class="landing-page">
+		<!-- header -->
+		<header>
+			<!-- top bar -->
+			<div class="top-bar">
+				<div class="container">
+					<div class="search input-group hidden-xs">
+						<input class="form-control" type="search" name="search" placeholder="بحث" />
+						<span class="input-group-addon"><i class="fa fa-search"></i></span>
+					</div>
+					<div class="follow-us">
+						<span class="phone"><i class="fa fa-phone"></i>19123</span>
+						<ul class="social-icons">
+							<li><a href="#" ><i class="social fa fa-facebook"></i></a></li>
+							<li><a href="#" ><i class="social fa fa-twitter"></i></a></li>
+							<li><a href="#" ><i class="social fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<div class="language input-group hidden-xs">
+						<span class="input-group-addon"><i class="fa fa-flag"></i></span>
+						<select>
+							<option value="العربية" selected>العربية</option>
+							<option value="EN">EN</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<!-- navbar -->
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span> 
+						</button>
+						<a class="navbar-brand" href="#">
+							<img class="img-responsive full-width" src="images/logo.png" alt="logo" />
+						</a>
+					</div>
+					<div class="collapse navbar-collapse pull-right" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">الرئيسية</a></li>
+							<li><a href="#">من نحن</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">المشروعات <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">أشهر المشروعات</a></li>
+									<li><a href="#">أحدث المشروعات</a></li>
+									<li><a href="#">مشروعات قديمة</a></li>
+								</ul>
+							</li>
+							<li><a href="#">توظيف</a></li>
+							<li><a href="#" >المدونة</a></li>
+							<li class="dropdown visible-xs">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">اللغة<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">العربية</a></li>
+									<li><a href="#">English</a></li>
+								</ul>
+							</li>
+							<li class="input-group visible-xs">
+								<span class="input-group-addon"><i class="fa fa-search"></i></span>
+								<input class="form-control" type="search" name="search" placeholder="بحث" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="clearfix"></div>
+		<!-- Introduction -->
+		<div class="intro">
+			<!-- banner -->
+			<div class="banner hidden-sm hidden-xs">
+				<div class="container full-height">
+					<div class="properties">
+						<form class="property">
+							<h2>تواصل معنا</h2>
+							<input class="form-control" type="text" name="user-name" placeholder="الاسم" />
+							<input class="form-control" type="email" name="email" placeholder="البريد الإلكتروني" />
+							<input class="form-control" type="password" name="password" placeholder="الرقم السري" />
+							<label for="interest">مهتم بـ :</label>
+							<select class="form-control" name="interesting in" id="interest">
+								<option>شراء</option>
+								<option>بيع</option>
+							</select>
+							<input class="form-control" type="submit" name="submit" value="إرسال" />
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- carousel slider -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<!-- item 1 -->
+					<div class="item active">
+						<div class="overlay"></div>
+						<img class="img-responsive full-width full-height" src="images/intro/intro-1.jpg" alt="intro slider" />
+						<div class="carousel-caption">
+							<div class="container" style="position: relative">
+								<h2>شركة العقارات</h2>
+								<h3>مجموعة كبيرة من العقارات</h3>
+								<p class="lead">مع مجموعة قوية من الخصائص الشعبية في<br> متناول اليد بالإضافة إلى الخصائص الرائدة من الخبراء </p>
+								<div class="more-btn"><a href="#" >إقرأ المزيد<i class="fa fa-angle-left"></i></a></div>
+								<div class="choose visible-sm">
+									<h2 class="choose-heading">اختار ما يناسبك</h2>
+									<div class="choose-item">
+										<h3>شراء</h3>
+										<p>هنا ستجد ما تريد وبأعلى المواصفات والجودة والأمانة</p>
+									</div>
+									<div class="choose-item">
+										<h3>بيع</h3>
+										<p>إذا كتت تمتلك أحد العقارات يمكننا مساعدتك في بيعة</p>
+									</div>
+									<div class="choose-item">
+										<h3>تأجير</h3>
+										<p>هنا ستجد ما تريد وبأعلى المواصفات والجودة والأمانة</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- item2 -->
+					<div class="item">
+						<div class="overlay"></div>
+						<img class="img-responsive full-width full-height" src="images/intro/intro-2.jpg" alt="intro slider" />
+						<div class="carousel-caption">
+							<div class="container" style="position: relative">
+								<h2>شركة العقارات</h2>
+								<h3>مجموعة كبيرة من العقارات</h3>
+								<p class="lead">مع مجموعة قوية من الخصائص الشعبية في<br> متناول اليد بالإضافة إلى الخصائص الرائدة من الخبراء </p>
+								<div class="more-btn"><a href="#" >إقرأ المزيد<i class="fa fa-angle-left"></i></a></div>
+								<div class="choose visible-sm">
+									<h2 class="choose-heading">اختار ما يناسبك</h2>
+									<div class="choose-item">
+										<h3>شراء</h3>
+										<p>هنا ستجد ما تريد وبأعلى المواصفات والجودة والأمانة</p>
+									</div>
+									<div class="choose-item">
+										<h3>بيع</h3>
+										<p>إذا كتت تمتلك أحد العقارات يمكننا مساعدتك في بيعة</p>
+									</div>
+									<div class="choose-item">
+										<h3>تأجير</h3>
+										<p>هنا ستجد ما تريد وبأعلى المواصفات والجودة والأمانة</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- item3 -->
+					<div class="item">
+						<div class="overlay"></div>
+						<img class="img-responsive full-width full-height" src="images/intro/intro-3.jpg" alt="intro slider" />
+						<div class="carousel-caption">
+							<div class="container" style="position: relative">
+								<h2>شركة العقارات</h2>
+								<h3>مجموعة كبيرة من العقارات</h3>
+								<p class="lead">مع مجموعة قوية من الخصائص الشعبية في<br> متناول اليد بالإضافة إلى الخصائص الرائدة من الخبراء </p>
+								<div class="more-btn"><a href="#" >إقرأ المزيد<i class="fa fa-angle-left"></i></a></div>
+								<div class="choose visible-sm">
+									<h2 class="choose-heading">اختار ما يناسبك</h2>
+									<div class="choose-item">
+										<h3>شراء</h3>
+										<p>هنا ستجد ما تريد وبأعلى المواصفات والجودة والأمانة</p>
+									</div>
+									<div class="choose-item">
+										<h3>بيع</h3>
+										<p>إذا كتت تمتلك أحد العقارات يمكننا مساعدتك في بيعة</p>
+									</div>
+									<div class="choose-item">
+										<h3>تأجير</h3>
+										<p>هنا ستجد ما تريد وبأعلى المواصفات والجودة والأمانة</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- item4 -->
+					<div class="item">
+						<div class="overlay"></div>
+						<img class="img-responsive full-width full-height" src="images/intro/intro-4.jpg" alt="intro slider" />
+						<div class="carousel-caption">
+							<div class="container" style="position: relative">
+								<h2>شركة العقارات</h2>
+								<h3>مجموعة كبيرة من العقارات</h3>
+								<p class="lead">مع مجموعة قوية من الخصائص الشعبية في<br> متناول اليد بالإضافة إلى الخصائص الرائدة من الخبراء </p>
+								<div class="more-btn"><a href="#" >إقرأ المزيد<i class="fa fa-angle-left"></i></a></div>
+								<div class="choose visible-sm">
+									<h2 class="choose-heading">اختار ما يناسبك</h2>
+									<div class="choose-item">
+										<h3>شراء</h3>
+										<p>هنا ستجد ما تريد وبأعلى المواصفات والجودة والأمانة</p>
+									</div>
+									<div class="choose-item">
+										<h3>بيع</h3>
+										<p>إذا كتت تمتلك أحد العقارات يمكننا مساعدتك في بيعة</p>
+									</div>
+									<div class="choose-item">
+										<h3>تأجير</h3>
+										<p>هنا ستجد ما تريد وبأعلى المواصفات والجودة والأمانة</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- item5 -->
+					<div class="item">
+						<div class="overlay"></div>
+						<img class="img-responsive full-width full-height" src="images/intro/intro-5.jpg" alt="intro slider" />
+						<div class="carousel-caption">
+							<div class="container" style="position: relative">
+								<h2>شركة العقارات</h2>
+								<h3>مجموعة كبيرة من العقارات</h3>
+								<p class="lead">مع مجموعة قوية من الخصائص الشعبية في<br> متناول اليد بالإضافة إلى الخصائص الرائدة من الخبراء </p>
+								<div class="more-btn"><a href="#" >إقرأ المزيد<i class="fa fa-angle-left"></i></a></div>
+								<div class="choose visible-sm">
+									<h2 class="choose-heading">اختار ما يناسبك</h2>
+									<div class="choose-item">
+										<h3>شراء</h3>
+										<p>هنا ستجد ما تريد وبأعلى المواصفات والجودة والأمانة</p>
+									</div>
+									<div class="choose-item">
+										<h3>بيع</h3>
+										<p>إذا كتت تمتلك أحد العقارات يمكننا مساعدتك في بيعة</p>
+									</div>
+									<div class="choose-item">
+										<h3>تأجير</h3>
+										<p>هنا ستجد ما تريد وبأعلى المواصفات والجودة والأمانة</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+				</ol>
+			</div>
+		</div>
+	</section><!-- Landing Page -->
+	
+	<!-- Regions -->
+	<section class="regions">
+		<div class="container">
+			<!--section head  --> 
+			<div class="section-head text-center">
+				<h2>المناطق</h2>
+				<div class="line"><span></span></div>
+			</div>
+			<!-- region data -->
+			<div class="region-data">
+				<div class="row">
+					<!-- region1 -->
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="region img-thumbnail">
+							<div class="region-name">القاهرة</div>
+							<img class="img-responsive full-width full-height" src="images/regions/region-1.jpg" alt="القاهرة" width="739" height="415" />
+						</div>
+					</div>
+					<!-- region2 -->
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="region img-thumbnail">
+							<div class="region-name">الساحل</div>
+							<img class="img-responsive full-width full-height" src="images/regions/region-2.jpg" alt="الساحل" width="739" height="415" />
+						</div>
+					</div>
+					<!-- region3 -->
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="region img-thumbnail">
+							<div class="region-name">العاصمة</div>
+							<img class="img-responsive full-width full-height" src="images/regions/region-3.jpg" alt="العاصمة" width="739" height="415" />
+						</div>
+					</div>
+					<!-- region4 -->
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="region img-thumbnail">
+							<div class="region-name">السخنة</div>
+							<img class="img-responsive full-width full-height" src="images/regions/region-4.jpg" alt="السخنة" width="739" height="415" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- Regions -->
+	
+	<!-- Recent Projects -->
+	<section class="recent-projects light-bg">
+		<div class="container">
+			<!--section head  --> 
+			<div class="section-head text-center">
+				<h2>أحدث المشروعات</h2>
+				<div class="line"><span></span></div>
+			</div>
+			<!-- projects data -->
+			<div class="project-data">
+				<div class="row">
+					<!-- project1 -->
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="project">
+							<div class="project-img">
+								<img class="img-responsive full-width full-height" src="images/recent-projects/project-1.png" alt="project" width="362" height="240" />
+							</div>
+							<div class="project-info">
+								<h3>منزل بحديقة وطابقان</h3>
+								<p><i class="fa fa-map-marker"></i>القاهرة</p>
+								<p><i class="fa fa-thumb-tack"></i>أشهر العقارات</p>
+								<p>4,469,00 &dollar;</p>
+								<div class="more-about-project"><a href="#">تفاصيل أكثر</a></div>
+							</div>
+							<div class="project-properties">
+								<span><i class="fa fa-hashtag"></i>٢ حمام</span>
+								<span><i class="fa fa-home"></i>٥ غرف</span>
+								<span><i class="fa fa-cube"></i>٤٠٠ متر مكعب</span>
+							</div>
+						</div>
+					</div>
+					<!-- project2 -->
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="project">
+							<div class="project-img">
+								<img class="img-responsive full-width full-height" src="images/recent-projects/project-2.png" alt="project" width="362" height="240" />
+							</div>
+							<div class="project-info">
+								<h3>منزل بحديقة وطابقان</h3>
+								<p><i class="fa fa-map-marker"></i>القاهرة</p>
+								<p><i class="fa fa-thumb-tack"></i>أشهر العقارات</p>
+								<p>4,469,00 &dollar;</p>
+								<div class="more-about-project"><a href="#">تفاصيل أكثر</a></div>
+							</div>
+							<div class="project-properties">
+								<span><i class="fa fa-hashtag"></i>٢ حمام</span>
+								<span><i class="fa fa-home"></i>٥ غرف</span>
+								<span><i class="fa fa-cube"></i>٤٠٠ متر مكعب</span>
+							</div>
+						</div>
+					</div>
+					<!-- project3 -->
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="project">
+							<div class="project-img">
+								<img class="img-responsive full-width full-height" src="images/recent-projects/project-3.png" alt="project" width="362" height="240" />
+							</div>
+							<div class="project-info">
+								<h3>منزل بحديقة وطابقان</h3>
+								<p><i class="fa fa-map-marker"></i>القاهرة</p>
+								<p><i class="fa fa-thumb-tack"></i>أشهر العقارات</p>
+								<p>4,469,00 &dollar;</p>
+								<div class="more-about-project"><a href="#">تفاصيل أكثر</a></div>
+							</div>
+							<div class="project-properties">
+								<span><i class="fa fa-hashtag"></i>٢ حمام</span>
+								<span><i class="fa fa-home"></i>٥ غرف</span>
+								<span><i class="fa fa-cube"></i>٤٠٠ متر مكعب</span>
+							</div>
+						</div>
+					</div>
+					<!-- project4 -->
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="project">
+							<div class="project-img">
+								<img class="img-responsive full-width full-height" src="images/recent-projects/project-4.png" alt="project" width="362" height="240" />
+							</div>
+							<div class="project-info">
+								<h3>منزل بحديقة وطابقان</h3>
+								<p><i class="fa fa-map-marker"></i>القاهرة</p>
+								<p><i class="fa fa-thumb-tack"></i>أشهر العقارات</p>
+								<p>4,469,00 &dollar;</p>
+								<div class="more-about-project"><a href="#">تفاصيل أكثر</a></div>
+							</div>
+							<div class="project-properties">
+								<span><i class="fa fa-hashtag"></i>٢ حمام</span>
+								<span><i class="fa fa-home"></i>٥ غرف</span>
+								<span><i class="fa fa-cube"></i>٤٠٠ متر مكعب</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- Recent Projects -->
+	
+	<!-- Agents -->
+	<section class="agents">
+		<div class="container">
+			<!--section head  --> 
+			<div class="section-head text-center" style="position:relative; z-index:1">
+				<h2 style="color:#fff">المطورين</h2>
+				<div class="line" style="background-color:#eee"><span style="background-color:#fff"></span></div>
+			</div>
+			<!-- agents-data -->
+			<div class="text-center agents-data owl-carousel owl-theme">
+				<!-- agent1 -->
+				<div class="agent text-center">
+					<div class="agent-img">
+						<img class="img-responsive full-width full-height" src="images/agents/agent-1.jpg" alt="agent" width="150" height="150" />
+					</div>
+					<span>حسن علي</span>
+					<span>محاسب</span>
+				</div>
+				<!-- agent2 -->
+				<div class="agent text-center">
+					<div class="agent-img">
+						<img class="img-responsive full-width full-height" src="images/agents/agent-2.jpg" alt="agent" width="150" height="150" />
+					</div>
+					<span>سارة فريد</span>
+					<span>مهندسة</span>
+				</div>
+				<!-- agent3 -->
+				<div class="agent text-center">
+					<div class="agent-img">
+						<img class="img-responsive full-width full-height" src="images/agents/agent-1.jpg" alt="agent" width="150" height="150" />
+					</div>
+					<span>حسن علي</span>
+					<span>محاسب</span>
+				</div>
+				<!-- agent4 -->
+				<div class="agent text-center">
+					<div class="agent-img">
+						<img class="img-responsive full-width full-height" src="images/agents/agent-2.jpg" alt="agent" width="150" height="150" />
+					</div>
+					<span>سارة فريد</span>
+					<span>مهندسة</span>
+				</div>
+				<!-- agent5 -->
+				<div class="agent text-center">
+					<div class="agent-img">
+						<img class="img-responsive full-width full-height" src="images/agents/agent-1.jpg" alt="agent" width="150" height="150" />
+					</div>
+					<span>حسن علي</span>
+					<span>محاسب</span>
+				</div>
+				<!-- agent6 -->
+				<div class="agent text-center">
+					<div class="agent-img">
+						<img class="img-responsive full-width full-height" src="images/agents/agent-2.jpg" alt="agent" width="150" height="150" />
+					</div>
+					<span>سارة فريد</span>
+					<span>مهندسة</span>
+				</div>
+				<!-- agent7 -->
+				<div class="agent text-center">
+					<div class="agent-img">
+						<img class="img-responsive full-width full-height" src="images/agents/agent-1.jpg" alt="agent" width="150" height="150" />
+					</div>
+					<span>حسن علي</span>
+					<span>محاسب</span>
+				</div>
+				<!-- agent8 -->
+				<div class="agent text-center">
+					<div class="agent-img">
+						<img class="img-responsive full-width full-height" src="images/agents/agent-2.jpg" alt="agent" width="150" height="150" />
+					</div>
+					<span>سارة فريد</span>
+					<span>مهندسة</span>
+				</div>
+			</div>
+		</div>
+	</section><!-- Agents -->
+	
+	<!-- Blog -->
+	<section class="blogs">
+		<div class="container">
+			<!--section head  --> 
+			<div class="section-head text-center">
+				<h2>المدونة</h2>
+				<div class="line"><span></span></div>
+			</div>
+			<!-- blog-data -->
+			<div class="blogs-data">
+				<div class="row">
+					<!-- blog1 -->
+					<div class="col-sm-6 col-xs-12">
+						<div class="blog">
+							<div class="row">
+								<div class="col-md-5 col-xs-12">
+									<div class="blog-cover">
+										<div class="blog-img">
+											<img class="img-responsive full-width full-height" src="images/blogs/blog-1.jpg" alt="blog" width="612" height="400" />
+										</div>
+										<ul class="share-blog">
+											<li><a href="#" ><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#" ><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#" ><i class="fa fa-google-plus"></i></a></li>
+											<li><a href="#" ><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-7 col-xs-12">
+									<div class="blog-article">
+										<h2>التمويل العقاري</h2>
+										<h3>قسم الشؤون المالية</h3>
+										<p>شركة مصرية رائدة بتوفير حلول عقارية متكاملة بطرق حديثة، وذلك من أجل تلبية متطلبات القطاع العقاري بفريق من الخبراء المتخصصين في مجال العقارات والشؤون العقارية والمالية</p>
+										<div class="read-more"><a href="#" >إقرأ المزيد</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- blog2 -->
+					<div class="col-sm-6 col-xs-12">
+						<div class="blog">
+							<div class="row">
+								<div class="col-md-5 col-xs-12">
+									<div class="blog-cover">
+										<div class="blog-img">
+											<img class="img-responsive full-width full-height" src="images/blogs/blog-2.jpg" alt="blog" width="612" height="400" />
+										</div>
+										<ul class="share-blog">
+											<li><a href="#" ><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#" ><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#" ><i class="fa fa-google-plus"></i></a></li>
+											<li><a href="#" ><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-7 col-xs-12">
+									<div class="blog-article">
+										<h2>التمويل العقاري</h2>
+										<h3>قسم الشؤون المالية</h3>
+										<p>شركة مصرية رائدة بتوفير حلول عقارية متكاملة بطرق حديثة، وذلك من أجل تلبية متطلبات القطاع العقاري بفريق من الخبراء المتخصصين في مجال العقارات والشؤون العقارية والمالية</p>
+										<div class="read-more"><a href="#" >إقرأ المزيد</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- blog3 -->
+					<div class="col-sm-6 col-xs-12">
+						<div class="blog">
+							<div class="row">
+								<div class="col-md-5 col-xs-12">
+									<div class="blog-cover">
+										<div class="blog-img">
+											<img class="img-responsive full-width full-height" src="images/blogs/blog-3.jpg" alt="blog" width="612" height="400" />
+										</div>
+										<ul class="share-blog">
+											<li><a href="#" ><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#" ><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#" ><i class="fa fa-google-plus"></i></a></li>
+											<li><a href="#" ><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-7 col-xs-12">
+									<div class="blog-article">
+										<h2>التمويل العقاري</h2>
+										<h3>قسم الشؤون المالية</h3>
+										<p>شركة مصرية رائدة بتوفير حلول عقارية متكاملة بطرق حديثة، وذلك من أجل تلبية متطلبات القطاع العقاري بفريق من الخبراء المتخصصين في مجال العقارات والشؤون العقارية والمالية</p>
+										<div class="read-more"><a href="#" >إقرأ المزيد</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- blog4 -->
+					<div class="col-sm-6 col-xs-12">
+						<div class="blog">
+							<div class="row">
+								<div class="col-md-5 col-xs-12">
+									<div class="blog-cover">
+										<div class="blog-img">
+											<img class="img-responsive full-width full-height" src="images/blogs/blog-4.jpg" alt="blog" width="612" height="400" />
+										</div>
+										<ul class="share-blog">
+											<li><a href="#" ><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#" ><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#" ><i class="fa fa-google-plus"></i></a></li>
+											<li><a href="#" ><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-7 col-xs-12">
+									<div class="blog-article">
+										<h2>التمويل العقاري</h2>
+										<h3>قسم الشؤون المالية</h3>
+										<p>شركة مصرية رائدة بتوفير حلول عقارية متكاملة بطرق حديثة، وذلك من أجل تلبية متطلبات القطاع العقاري بفريق من الخبراء المتخصصين في مجال العقارات والشؤون العقارية والمالية</p>
+										<div class="read-more"><a href="#" >إقرأ المزيد</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- Blog -->
+	
+	<!-- copyrights -->
+	<div class="copyrights">
+		<div class="container">
+			<p> جميع الحقوق محفوظة ٢٠٢٠&nbsp;&copy;</p>
+		</div>
+	</div><!-- copyrights -->
+	
+	<!-- Back to top button -->
+	<div  id="backTop">
+		<span class="fa fa-angle-up fa-2x" ></span>
+	</div><!-- Back to top button -->
+	
+	
+	<!-- *** js files *** -->
+	<!-- Jquery -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap-rtl.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Master javascript codes -->
+	<script src="js/master.js"></script>
+</body>
+</html>
